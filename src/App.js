@@ -8,7 +8,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
       <Router>
         <Navbar title="TextModifier" />
         <Routes>
-          <Route exact path = "/" element={<Form/>}/>
+          <Route exact path = "/" element={<Form toptext="Enter the text in below text area"/>}/>
         </Routes>
         <Routes>
           <Route exact path = "/about" element={<About/>}/>
