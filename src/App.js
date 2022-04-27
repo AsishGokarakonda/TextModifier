@@ -28,7 +28,7 @@ function App() {
       setMode("dark")
       document.body.style.backgroundColor = "black"
       document.body.style.color = "white"
-      promptAlert("Dark has been enabled","light")
+      promptAlert("Dark mode has been enabled","light")
     }
     else{
       setMode("light")
